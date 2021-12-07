@@ -1,0 +1,12 @@
+---
+- hosts: all
+  vars:
+    item: mb_test
+    motd: fajilagutan
+  
+  roles:
+       
+       - python
+       - java
+       - motd
+       - create_user
