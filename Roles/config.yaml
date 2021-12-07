@@ -1,0 +1,14 @@
+---
+- hosts: Ubuntu
+  roles:
+    - python
+    - java
+
+    - role: change_motd
+     vars:
+       motd: "Ansible Manage node by qjfp fajilagutan"
+
+    - role: create_user
+      vars:
+        username: "qjfpfajilagutan"
+        name: "Jam Fiona Fajilagutan"
