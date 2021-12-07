@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: Ubuntu
   vars:
     item: mb_test
     motd: fajilagutan
